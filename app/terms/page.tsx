@@ -1,0 +1,68 @@
+import PageHero from "@/components/PageHero";
+import { SITE_EMAIL } from "@/lib/site";
+import { createMetadata } from "@/lib/metadata";
+
+export const metadata = createMetadata({
+  title: "Terms of Use | ValuationExpertWitness.co.uk",
+  description: "Terms of use for ValuationExpertWitness.co.uk referral service.",
+  path: "/terms",
+  noindex: true,
+  nofollow: false,
+});
+
+export default function TermsPage() {
+  return (
+    <>
+      <PageHero
+        title="Terms of Use"
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "Terms of Use" }]}
+      />
+      <section className="py-12 md:py-16">
+        <div className="page-container prose-content max-w-3xl min-w-0">
+          <p><strong>Last updated:</strong> June 2026</p>
+
+          <h2>About This Service</h2>
+          <p>
+            ValuationExpertWitness.co.uk is a referral service that connects UK solicitors, barristers, and law firms with qualified valuation expert witnesses across all asset types. We are not a law firm and do not provide legal advice.
+          </p>
+
+          <h2>Nature of the Service</h2>
+          <p>
+            When you submit an enquiry, we review your case details and introduce you to an appropriate valuation expert witness. Any engagement with an expert witness is a separate arrangement between you and the expert. We do not guarantee the outcome of any litigation or arbitration proceeding.
+          </p>
+
+          <h2>No Legal Advice</h2>
+          <p>
+            Content on this website is provided for general information purposes only and does not constitute legal advice. You should seek independent legal advice for your specific circumstances.
+          </p>
+
+          <h2>Expert Witness Independence</h2>
+          <p>
+            Valuation expert witnesses introduced through our service are independent professionals bound by CPR Part 35 duties to the court. Their duty is to the court or tribunal, not to the instructing party.
+          </p>
+
+          <h2>Accuracy of Information</h2>
+          <p>
+            We endeavour to keep website content accurate and current, including references to valuation standards, case law, and professional body requirements. Valuation practice and case law evolve and you should verify current positions with your legal advisers.
+          </p>
+
+          <h2>Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, ValuationExpertWitness.co.uk shall not be liable for any loss arising from reliance on website content or from the introduction of an expert witness. Our liability is limited to the referral service itself.
+          </p>
+
+          <h2>Governing Law</h2>
+          <p>
+            These terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.
+          </p>
+
+          <h2>Contact</h2>
+          <p>
+            Enquiries about these terms:{" "}
+            <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>
+          </p>
+        </div>
+      </section>
+    </>
+  );
+}

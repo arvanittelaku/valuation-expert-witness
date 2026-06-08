@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /thank-you
+Disallow: /api/
+Disallow: /_next/
+Disallow: /.netlify/
+
+Sitemap: https://www.valuationexpertwitness.co.uk/sitemap.xml

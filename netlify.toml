@@ -1,0 +1,18 @@
+# Netlify + Next.js (App Router) — @netlify/plugin-nextjs handles SSR, API routes, and routing.
+# Build runs SEO generation then next build via package.json "build" script.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
