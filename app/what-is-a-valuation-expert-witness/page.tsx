@@ -32,6 +32,9 @@ export default function WhatIsPage() {
       <section className="py-12 md:py-16">
         <div className="page-container max-w-3xl min-w-0">
           <p className="text-body leading-relaxed mb-4">
+            ValuationExpertWitness.co.uk is a United Kingdom instruction service. The role, credentials, and legal frameworks described on this page apply to expert evidence in England and Wales, Scotland, and Northern Ireland. We do not refer valuation expert witnesses for proceedings outside the UK.
+          </p>
+          <p className="text-body leading-relaxed mb-4">
             A valuation expert witness is a qualified professional who provides independent opinion evidence on the value of assets for UK litigation and arbitration. Unlike a transactional valuer who prepares valuations for deal purposes, a valuation expert witness prepares CPR Part 35 compliant expert reports, gives evidence under oath, and assists the court in understanding valuation methodology and conclusions.
           </p>
           <p className="text-body leading-relaxed mb-4">

@@ -26,6 +26,11 @@ export default function TermsPage() {
             ValuationExpertWitness.co.uk is a referral service that connects UK solicitors, barristers, and law firms with qualified valuation expert witnesses across all asset types. We are not a law firm and do not provide legal advice.
           </p>
 
+          <h2>Geographic Scope</h2>
+          <p>
+            This service operates exclusively within the United Kingdom. We accept enquiries relating to proceedings in England and Wales, Scotland, and Northern Ireland, and to UK-seated arbitration. We do not accept enquiries for valuation expert witness referrals in other countries or for foreign courts, tribunals, or regulatory bodies.
+          </p>
+
           <h2>Nature of the Service</h2>
           <p>
             When you submit an enquiry, we review your case details and introduce you to an appropriate valuation expert witness. Any engagement with an expert witness is a separate arrangement between you and the expert. We do not guarantee the outcome of any litigation or arbitration proceeding.

@@ -30,6 +30,10 @@ export default function HowToInstructPage() {
       />
       <section className="py-12 md:py-16">
         <div className="page-container prose-content max-w-3xl min-w-0">
+          <p>
+            This guide applies to instructing valuation expert witnesses in the United Kingdom only. It covers England and Wales civil and family proceedings (CPR Part 35 and FPR Part 25), Scottish litigation, Northern Ireland courts, and UK-seated arbitration. If your matter is before a foreign court or tribunal, instruct a local expert qualified in that jurisdiction.
+          </p>
+
           <h2>Step 1: Identify the Asset Type</h2>
           <p>
             Determine which asset or assets require valuation. Business interests, property, intellectual property, plant and machinery, art and chattels, financial instruments, goodwill, and specialist assets each require a different expert discipline. If multiple asset types are involved, you will need multiple experts.

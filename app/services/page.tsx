@@ -35,7 +35,7 @@ export default function ServicesPage() {
       />
       <PageHero
         title="Valuation Expert Witness Services UK"
-        subtitle="CPR Part 35 compliant valuation expert evidence across all asset types. Forensic accountants, RICS chartered surveyors, and specialist valuers for every litigation context."
+        subtitle="CPR Part 35 compliant valuation expert evidence for United Kingdom litigation and arbitration. Forensic accountants, RICS chartered surveyors, and specialist valuers across England, Wales, Scotland, and Northern Ireland."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },
@@ -43,6 +43,9 @@ export default function ServicesPage() {
       />
       <section className="py-12 md:py-16">
         <div className="page-container min-w-0 space-y-16">
+          <p className="text-body leading-relaxed max-w-3xl">
+            Every service on this page is scoped to the United Kingdom. We do not refer valuation expert witnesses for proceedings outside England, Wales, Scotland, or Northern Ireland.
+          </p>
           {services.map((service) => {
             const serviceFaqs = getServiceFaqs(service.id);
             return (

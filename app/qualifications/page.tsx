@@ -22,7 +22,7 @@ export default function QualificationsPage() {
       />
       <PageHero
         title="Valuation Expert Witness Qualifications by Discipline"
-        subtitle="The credentials, professional body memberships, and court experience required for valuation expert witnesses across all three disciplines."
+        subtitle="The UK professional credentials, body memberships, and court experience required for valuation expert witnesses across all three disciplines."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Qualifications" },
@@ -30,6 +30,10 @@ export default function QualificationsPage() {
       />
       <section className="py-12 md:py-16">
         <div className="page-container prose-content max-w-3xl min-w-0">
+          <p>
+            All qualifications listed on this page are United Kingdom professional designations recognised in English and Welsh, Scottish, and Northern Irish courts. ValuationExpertWitness.co.uk does not refer experts for proceedings outside the UK.
+          </p>
+
           <h2>Business Valuation</h2>
           <p>
             Business and share valuation expert witnesses are typically chartered accountants with forensic and valuation specialisms. The core UK credential is ACA or FCA (Associate or Fellow of the Institute of Chartered Accountants in England and Wales). CVA (Certified Valuation Analyst) or CFA (Chartered Financial Analyst) adds specialist valuation qualification. ICAEW Forensic Accreditation confirms expert witness experience and competency. Prior court or arbitration acceptance as a valuation expert is a critical credibility indicator.

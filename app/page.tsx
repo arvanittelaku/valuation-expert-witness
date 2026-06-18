@@ -54,8 +54,24 @@ export default function HomePage() {
       <AlertBanner />
       <PageHero
         title="Valuation Expert Witness Services for UK Solicitors & Law Firms"
-        subtitle="The broadest valuation expert witness service in the UK. Business valuation, property valuation, intellectual property, plant and machinery, art and chattels, financial instruments, and every specialist asset type for litigation and arbitration. CPR Part 35 compliant expert evidence across all three valuation disciplines."
+        subtitle="The broadest valuation expert witness service in the United Kingdom. Business valuation, property valuation, intellectual property, plant and machinery, art and chattels, financial instruments, and every specialist asset type for litigation and arbitration in England, Wales, Scotland, and Northern Ireland. CPR Part 35 compliant expert evidence across all three valuation disciplines."
       />
+      <section className="py-12 md:py-16 border-b border-border">
+        <div className="page-container max-w-3xl min-w-0">
+          <h2 className="text-xl sm:text-2xl font-bold text-heading mb-4 break-words">
+            United Kingdom Valuation Expert Witness Instruction
+          </h2>
+          <p className="text-body leading-relaxed mb-4">
+            This website is built for UK litigation and arbitration only. We support solicitors and law firms instructing valuation expert witnesses in the High Court, County Court, Family Court, Employment Tribunal, Lands Tribunal, and other UK forums, including Scottish Court of Session proceedings and Northern Ireland courts.
+          </p>
+          <p className="text-body leading-relaxed mb-4">
+            Content, credentials, and valuation standards referenced throughout the site reflect United Kingdom practice: CPR Part 35 and FPR Part 25 for expert evidence; the RICS Red Book for property; Companies Act 2006 fair value for shareholder disputes; and HMRC market value concepts for tax matters. Professional designations such as ACA, FCA, MRICS, FRICS, and ICAEW Forensic Accreditation are UK qualifications.
+          </p>
+          <p className="text-body leading-relaxed">
+            We do not provide valuation expert witness referrals for proceedings outside the United Kingdom. If your matter involves foreign courts or non-UK regulatory bodies, you should instruct an expert qualified in that jurisdiction&apos;s rules of evidence and valuation practice.
+          </p>
+        </div>
+      </section>
       <section className="py-8 bg-section-alt border-b border-border">
         <div className="page-container text-center">
           <Link

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | ValuationExpertWitness.co.uk",
   },
   description:
-    "Find a qualified valuation expert witness in the UK. Business valuation, property valuation, intellectual property, plant and machinery, art, and all asset types for litigation and arbitration. CPR Part 35 compliant.",
+    "United Kingdom valuation expert witness referral service. Find qualified experts for business, property, IP, plant and machinery, art, and all asset types in UK litigation and arbitration. England, Wales, Scotland, and Northern Ireland only. CPR Part 35 compliant.",
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
     other: process.env.BING_SITE_VERIFICATION

@@ -57,6 +57,11 @@ export const siteFaqs: FAQ[] = [
       "No. Different asset types require different professional qualifications and valuation methodologies. A forensic accountant cannot provide RICS-compliant property valuations, and a RICS surveyor cannot value complex financial instruments. Multi-asset disputes require multiple experts across the relevant disciplines.",
   },
   {
+    question: "Does this service cover valuation matters outside the UK?",
+    answer:
+      "No. ValuationExpertWitness.co.uk is a United Kingdom-only instruction service. We connect solicitors and law firms to valuation expert witnesses for proceedings in England and Wales, Scotland, and Northern Ireland, and for UK-seated arbitration under LCIA, ICC, or ad hoc rules. We do not refer enquiries relating to courts, tribunals, or regulatory bodies outside the UK. Credentials on this site (ACA, FCA, MRICS, FRICS, ICAEW) are UK professional qualifications.",
+  },
+  {
     question: "What is a single joint expert in valuation proceedings?",
     answer:
       "A single joint expert (SJE) is appointed jointly by both parties to provide one expert report on a specific issue, typically ordered by the court under CPR Part 35. In matrimonial proceedings, courts frequently direct a single joint expert for each asset class. The SJE's duty is to the court, not to either party.",
